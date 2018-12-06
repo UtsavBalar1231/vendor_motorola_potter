@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/potter/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/potter/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/motorola/potter/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/motorola/potter/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/motorola/potter/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/motorola/potter/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
@@ -33,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/motorola/potter/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/potter/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/potter/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/potter/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/motorola/potter/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/motorola/potter/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \

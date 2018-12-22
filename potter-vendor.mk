@@ -1264,7 +1264,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
     vendor/motorola/potter/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
     vendor/motorola/potter/proprietary/vendor/lib/libdtvtuner.so:/system/vendor/lib/libdtvtuner.so \
-    vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:/system/vendor/lib64/libdtvtuner.so
+    vendor/motorola/potter/proprietary/vendor/lib64/libdtvtuner.so:/system/vendor/lib64/libdtvtuner.so \
+    vendor/motorola/potter/proprietary/vendor/etc/perf/commonresourceconfigs.xml:/system/vendor/etc/perf/commonresourceconfigs.xml \
+    vendor/motorola/potter/proprietary/vendor/etc/perf/targetconfig.xml:/system/vendor/etc/perf/targetconfig.xml \
+    vendor/motorola/potter/proprietary/vendor/etc/perf/targetresourceconfigs.xml:/system/vendor/etc/perf/targetresourceconfigs.xml
 
 # WFD
 PRODUCT_COPY_FILES += \

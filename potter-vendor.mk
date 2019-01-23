@@ -439,6 +439,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/motorola/potter/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-iopd-client_system.so:/system/vendor/lib64/libqti-iopd-client_system.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/libqti-perfd-client_system.so:/system/vendor/lib64/libqti-perfd-client_system.so \
+    vendor/motorola/potter/proprietary/bin/perfservice:/system/bin/perfservice \
+    vendor/motorola/potter/proprietary/etc/init/perfservice.rc:/system/etc/init/perfservice.rc \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:/system/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:/system/vendor/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/motorola/potter/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:/system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/potter/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/motorola/potter/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
     vendor/motorola/potter/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
@@ -1406,6 +1415,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     libbtnv \
     WfdService \
-    WfdCommon
-
+    WfdCommon \
+    UxPerformance \
+    QPerformance
 
